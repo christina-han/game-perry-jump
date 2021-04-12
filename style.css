@@ -1,0 +1,32 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background-color: #92dcfe;
+    /* background-color: #67CDFD; */
+    position: relative;
+    text-align: center;
+    font-size: 200px;
+  margin: 0 auto;
+}
+
+.doodler{
+    width: 87px;
+    height: 100px;
+    position: absolute;
+    background-image: url("perry.png");
+    z-index: 10;
+}
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: #fff;
+    position: absolute;
+}
+.gameOver{
+    background-image: url("game-over.png");
+    width: 300px;
+    height: 157px;
+    position: absolute;
+    top: 50%;
+    left: 13% !important;
+}
