@@ -24,7 +24,7 @@
     background-image: url("cloud1.png");
 }
 .game-over{
-    background-image: url("game-over.PNG");
+    background-image: url("game-over.png");
     width: 260px;
     height: 189px;
     position: absolute;
