@@ -6,7 +6,7 @@
     position: relative;
     text-align: center;
     font-size: 200px;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .doodler{
@@ -17,16 +17,34 @@
     z-index: 10;
 }
 .platform{
-    width: 85px;
-    height: 15px;
-    background-color: #fff;
+    width: 90px;
+    height: 25px;
+    /* background-color: #fff; */
     position: absolute;
+    background-image: url("cloud1.png");
 }
-.gameOver{
-    background-image: url("game-over.png");
-    width: 300px;
-    height: 157px;
+.game-over{
+    background-image: url("game-over.PNG");
+    width: 260px;
+    height: 189px;
+    position: absolute;
+    top: 60%;
+    left: 20% !important;
+}
+.start-again {
+    cursor: pointer;
+    display: none;
     position: absolute;
     top: 50%;
-    left: 13% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 20;
+    padding: 0.8rem 1.5rem;
+    background: #fff;
+    border-radius: 7px;
+}
+.start-again:hover{
+    background-color: #1BB2A3;
+    color: #fff;
 }
